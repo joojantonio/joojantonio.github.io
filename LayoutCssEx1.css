@@ -1,0 +1,30 @@
+.site{
+    margin: auto;
+    width: 945px;
+}
+
+.superior{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.caixa{
+    background-color: gray;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bloco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior{
+    background-color:green;
+    color:black;
+    height: 50px;
+}
