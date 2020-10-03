@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: auto;
+    width: 1000px;
+}
+.frente{
+    font-size: 18px;
+    width: 950px;
+    border-bottom: 1px solid #9e9e9e;
+    margin: auto;
+    text-align: center;
+}
+.frente h1{
+    padding: 40px 0px 15px 0px;
+}
+.frente img{
+    padding: 15px 0px;
+    height: 200px;
+}
+#linguas a{
+    color: #0066ad;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+#linha-pesquisa{
+    width: 70px;
+    border-bottom: 1px solid #9e9e9e;
+}
+form div{
+    border: 1px solid #0066ad;
+    display: flex;
+    width: 380px;
+    height: 40px;
+    margin: 0 30px;
+    background-color: #0066ad;
+}
+form input{
+    border: none;
+    text-indent: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+form button{
+    color: white;
+    background-color: #0066ad;
+    border: none;
+    width: 80px;
+}
+.container-disciplinas{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa {
+    width: 320px;
+    height: 80px;
+    border-bottom: 2px solid #0066ad;
+    background-color: #f7f7f7;
+    margin-top: 30px;
+}
+.disciplina{
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+}
+.disciplina a{
+    display: flex;
+    text-decoration: none;
+}
+.disciplina img{
+    width: 60px;
+}
+.disciplina div{
+    margin: 10px;
+}
+.disciplina h2{
+    margin-left: 15px;
+    font-size: 20px;
+    color: #0066ad;
+}
+.disciplina h3{
+    margin-left: 15px;
+    font-size: 16px;
+    color: black;
+}
+footer{
+    margin-top: 40px;
+}

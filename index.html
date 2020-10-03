@@ -1,31 +1,100 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Exercício Layout CSS</title>
-        <link rel="stylesheet" href="LayoutCssEx1.css">
-    </head>
-    <body>
-        <div class="site">
-            <div class="superior">
-                superior
-            </div>
-
-            <div class="bloco">
-                <div class="caixa">caixa</div>
-                <div class="caixa">caixa</div>
-                <div class="caixa">caixa</div>
-            </div>
-            <div class="bloco">
-                <div class="caixa">caixa</div>
-                <div class="caixa">caixa</div>
-                <div class="caixa">caixa</div>
-            </div>
-            
-            <div class="inferior">
-                inferior
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InFopedia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="frente">
+        <h1>INFOPEDIA</h1>
+        <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+        <div id="linguas">
+            <a href="">Portugês</a>
+            <a href="">Inglês</a>
+        </div>
+        <div class="pesquisa">
+            <div id="linha-pesquisa"></div>
+            <form action="" method="POST">
+                <div>
+                    <input type="text" placeholder="Digite o que você procura.">
+                    <button type="submit">Buscar</button>
+                </div>
+            </form>
+            <div id="linha-pesquisa"></div>
+        </div>
+    </div>
+    <div class="container-disciplinas">
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>IN2I2</h2>
+                        <h3>Inglês Instrumental II</h3>
+                    </div>
+                </a>
             </div>
         </div>
-
-    </body>
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>LPGI2</h2>
+                        <h3>Laboratório de Programação</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>RECI2</h2>
+                        <h3>Redes de Computadores</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-disciplinas">
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>BD1I2</h2>
+                        <h3>Banco de Dados I</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>DW1I2</h2>
+                        <h3>Desenvolvimento Web I</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="caixa">
+            <div class="disciplina">
+                <a href="">
+                    <img src="images/logo-wikipedia.jpg" alt="Logo Infopedia">
+                    <div>
+                        <h2>AR1I2</h2>
+                        <h3>Administração de Redes I</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
 </html>
