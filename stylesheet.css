@@ -14,12 +14,17 @@ body{
     margin: auto;
     text-align: center;
 }
-.frente h1{
-    padding: 40px 0px 15px 0px;
+#infopedia{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 300px;
 }
 .frente img{
-    padding: 15px 0px;
-    height: 200px;
+    padding-bottom: 15px;
+    width: 300px;
 }
 #linguas a{
     color: #0066ad;
@@ -78,18 +83,20 @@ form button{
     text-decoration: none;
 }
 .disciplina img{
+    margin-left: 5px;
+    height: 60px;
     width: 60px;
 }
 .disciplina div{
     margin: 10px;
 }
 .disciplina h2{
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 20px;
     color: #0066ad;
 }
 .disciplina h3{
-    margin-left: 15px;
+    margin-left: 10px;
     font-size: 16px;
     color: black;
 }
