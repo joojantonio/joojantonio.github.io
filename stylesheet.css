@@ -4,10 +4,12 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 1000px;
 }
 .site{
-    width: 1000px;
     margin: auto;
+    width: 1000px;
 }
 .site-page{
     display: flex;
@@ -21,6 +23,36 @@ header{
     display: flex;
     justify-content: flex-end;
     height: 55px;
+}
+#header-login{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.tela-login{
+    display: flex;
+    text-align: center;
+}
+#form-login{
+    margin-bottom: 20px;
+    width: 300px;
+}
+#form-login-button{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 120px;
+}
+#form-login-button button{
+    margin: auto;
+    font-size: large;
+}
+.container-login{
+    margin: auto;
+    border: #9e9e9e 1px solid;
+}
+.container-login h1{
+    color: #0066ad;
+    margin: 30px;
 }
 .menu{
     text-align: center;
@@ -48,11 +80,15 @@ header{
     color: black;
     text-decoration: none;
 }
-#login{
+#login-button{
     height: 30px;
     display: flex;
     justify-content: flex-end;
     margin: 25px 20px 0px 30px;
+}
+.login img{
+    margin: 30px 0;
+    width: 200px;
 }
 .pesquisa-page div{
     width: 300px;
@@ -79,12 +115,24 @@ article h1{
 }
 article h2{
     font-size: 22px;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
     border-bottom: #c2c2c2 1px solid;
+}
+article h3{
+    padding-top: 15px;
 }
 article p{
     font-size: 16px;
     margin: 20px 0;
+}
+ul{
+    padding: 15px 0 0 20px;
+}
+ul li{
+    margin-bottom: 10px;
+}
+ul a{
+    text-decoration: none;
 }
 .frente{
     font-size: 18px;
@@ -138,6 +186,8 @@ form button{
     background-color: #0066ad;
     border: none;
     width: 80px;
+    font-size: medium;
+    text-align: center;
 }
 .container-disciplinas{
     display: flex;
@@ -178,5 +228,6 @@ form button{
     color: black;
 }
 footer{
-    margin-top: 40px;
+    border-top: #9e9e9e solid 1px;
+    margin: 50px 0px;
 }
