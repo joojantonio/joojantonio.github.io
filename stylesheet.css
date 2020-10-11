@@ -168,6 +168,23 @@ article p{
     font-size: 16px;
     margin: 20px 0;
 }
+article p a{
+    color: black;
+}
+#content-ti figure{
+    float: right;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0 10px 15px;
+    border-radius: 7px;
+    box-shadow: #979dac 0px 0px 3px;
+}
+#content-ti img{
+    width: 120px;
+}
+#vb{
+    padding-left: 15px;
+}
 ul{
     padding: 15px 0 0 20px;
 }
