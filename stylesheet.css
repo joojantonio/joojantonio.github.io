@@ -28,10 +28,12 @@ header{
     display: flex;
     justify-content: center;
     height: auto;
+    animation: fadein 500ms;
 }
 .tela-login{
     display: flex;
     text-align: center;
+    animation: fadein 1s;
 }
 #form-login{
     margin-bottom: 20px;
@@ -41,6 +43,11 @@ header{
     margin: auto;
     margin-bottom: 20px;
     width: 120px;
+    transition: all;
+    transform: scale(0px);
+}
+#form-login-button:hover{
+    background-color: #3e86b9;
 }
 #form-login-button button{
     margin: auto;
@@ -49,6 +56,7 @@ header{
 .container-login{
     margin: auto;
     border: #9e9e9e 1px solid;
+    border-radius: 7px;
 }
 .container-login h1{
     color: #0066ad;
@@ -67,6 +75,11 @@ header{
 .menu img{
     margin: 20px 0px;
     width: 200px;
+    transition: all;
+    transform: scale(0px);
+}
+.menu img:hover{
+    transform: scale(1.03);
 }
 .disciplinas{
     height: 60px;
@@ -74,6 +87,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all;
+    transform: scale(0px);
+}
+.disciplinas:hover{
+    background-color: aliceblue;
+    transform: scale(1.03);
 }
 .disciplinas a{
     font-size: 15px;
@@ -89,6 +108,11 @@ header{
 .login img{
     margin: 30px 0;
     width: 200px;
+    transition: all;
+    transform: scale(0px);
+}
+.login img:hover{
+    transform: scale(1.03);
 }
 .pesquisa-page div{
     width: 300px;
@@ -100,6 +124,12 @@ header{
     background-color: #f7f7f7;
     width: 90px;
     height: 30px;
+    border-radius: 7px;
+    transition: all;
+    transform: scale(0px);
+}
+#to-login:hover{
+    background-color: aliceblue;
 }
 article{
     border: #979dac 1px solid;
@@ -107,6 +137,11 @@ article{
     margin: 30px 0 0 10px;
     padding: 20px;
     text-align: justify;
+    animation: fadein 500ms;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 article h1{
     font-size: none;
@@ -140,6 +175,7 @@ ul a{
     border-bottom: 1px solid #9e9e9e;
     margin: auto;
     text-align: center;
+    animation: fadein 500ms;
 }
 #infopedia{
     display: flex;
@@ -173,6 +209,7 @@ form div{
     width: 380px;
     height: 40px;
     margin: 0 30px;
+    border-radius: 7px;
     background-color: #0066ad;
 }
 form input{
@@ -180,6 +217,7 @@ form input{
     text-indent: 10px;
     font-size: 16px;
     width: 300px;
+    border-radius: 7px;
 }
 form button{
     color: white;
@@ -188,10 +226,17 @@ form button{
     width: 80px;
     font-size: medium;
     text-align: center;
+    border-radius: 7px;
+    transition: all;
+    transform: scale(0px);
+}
+form button:hover{
+    background-color: #3e86b9;
 }
 .container-disciplinas{
     display: flex;
     justify-content: space-between;
+    animation: fadein 1s;
 }
 .caixa {
     width: 320px;
@@ -199,6 +244,15 @@ form button{
     border-bottom: 2px solid #0066ad;
     background-color: #f7f7f7;
     margin-top: 30px;
+    border-radius: 7px;
+    transition: all;
+    transform: scale(0px);
+}
+#caixa1{
+    margin-top: 20px;
+}
+.caixa:hover{
+    transform: scale(1.05);
 }
 .disciplina{
     margin: 10px;
