@@ -52,10 +52,12 @@ header{
 #form-login-button button{
     margin: auto;
     font-size: large;
+    width: 150px;
+    height: 40px;
 }
 .container-login{
     margin: auto;
-    border: #9e9e9e 1px solid;
+    box-shadow: #979dac 0px 0px 5px;
     border-radius: 7px;
 }
 .container-login h1{
@@ -68,7 +70,8 @@ header{
 }
 .menu h2{
     color: #0066ad;
-    background-color: #f7f7f7;
+    box-shadow: #979dac 0px 0px 2px;
+    border-radius: 7px 7px 0 0;
     padding: 15px;
     border-bottom: #0066ad 2px solid;
 }
@@ -83,7 +86,7 @@ header{
 }
 .disciplinas{
     height: 60px;
-    border-bottom: #c2c2c2 1px solid;
+    box-shadow: #979dac 0px 1px 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +98,11 @@ header{
     transform: scale(1.03);
 }
 .disciplinas a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 200px;
     font-size: 15px;
     color: black;
     text-decoration: none;
@@ -242,16 +250,17 @@ form button:hover{
     width: 320px;
     height: 80px;
     border-bottom: 2px solid #0066ad;
-    background-color: #f7f7f7;
     margin-top: 30px;
     border-radius: 7px;
     transition: all;
     transform: scale(0px);
+    box-shadow: #979dac 0px 0px 3px;
 }
 #caixa1{
     margin-top: 20px;
 }
 .caixa:hover{
+    background-color: #f7f7f7;
     transform: scale(1.05);
 }
 .disciplina{
